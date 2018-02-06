@@ -11,20 +11,20 @@
 
 	Total no. of Public facing systems(at the time of running the test) = 12
 
-	| Serial No. | 	IP Address | Ports Opened(Service)   |  Suggested OS  |		Uptime Guess	|
+	|  Serial No. | 	IP Address | Ports Opened(Service)   |  Suggested OS  |		Uptime Guess	|
 	|	---	|	--------   |	--------	|	-----------	 |	----------		|
-	|	1	|	14.139.34.2| 53(domain), 80(http), 443(https), 3000(ppp), 5001(complex-link), 7001(afs3-callback), 10000(snet-sensor-mgmt) |[Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L570)	| 54.880 days (since Wed Dec 13 19:12:07 2017) ||
-	|	2	|	14.139.34.3| 22(ssh), 80(http), 6001(X11:1), 8080(http-proxy)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L594)	| 55.101 days (since Wed Dec 13 13:54:01 2017) 	||
-	|	3	|	14.139.34.4	| 22(ssh), 80(http), 6001(X11:1), 8080(http-proxy)	|	[Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L618)	|	55.547 days (since Wed Dec 13 03:12:04 2017)	||
-	|	4	| 	14.139.34.7| 22(ssh), 53(domain), 80(http), 110(pop3), 143(imap), 587(submission), 993(imaps), 995(pop3s), 10000(snet-sensor-mgmt), 20000(dnp)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L647)	| 54.728 days (since Wed Dec 13 22:50:42 2017) ||
-	|	5	| 	14.139.34.8| 80(http), 389(ldap), 443(https)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L664)	| 55.260 days (since Wed Dec 13 10:04:38 2017) ||
-	|	6	|	14.139.34.9| 80(http), 110(pop3), 443(https), 465(smtps), 993(imaps), 10000(snet-sensor-mgmt) | [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L681) 	| 56.233 days (since Tue Dec 12 10:44:38 2017) ||
-	|	7	|	14.139.34.10| 21(ftp), 22(ssh), 80(http), 443(https), 8000(http-alt), 8082(blackice-alerts)	| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L699) 	| 55.080 days (since Wed Dec 13 14:24:20 2017) ||
-	|	8	|	14.139.34.11| 22(tcp), 53(domain), 80(tcp), 8080(http-proxy)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L721)	| 55.855 days (since Tue Dec 12 19:48:52 2017)	||
-	|	9	|	14.139.34.17| 22(ssh), 80(http), 5800(vnc-http), 5900(vnc) | [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L744)	| 56.227 days (since Tue Dec 12 10:52:28 2017) 	||
-	|	10	|	14.139.34.24| 80(http), 135(msrpc), 139(netbios-ssn), 1023(netvenuechat), 1433(ms-sql-s), 1801(msmq), 2103(zephyr-clt), 2105(eklogin), 2107(msmq-mgmt),etc ...	| [Windows](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L788) 	| 7.331 days (since Tue Jan 30 08:23:28 2018)	||
-	|	11	|	14.139.34.26| 80(http), 135(msrpc), 139(netbios-ssn),1023(netvenuechat), 1433(ms-sql-s), 1801(msmq), 2103(zephyr-clt), 2105(eklogin), 2107(msmq-mgmt),etc... | [Windows](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L828)	| 54.884 days (since Wed Dec 13 19:06:55 2017)	||
-	|	12	|	14.139.34.43| 22(ssh), 80(http), 139(netbios-ssn), 3306(mysql), 8080(http-proxy), 8081(blackice-icecap), 8082(blackice-alerts)	| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L867)	| 5.293 days (since Thu Feb  1 09:17:34 2018)	||
+	|   	1	|	14.139.34.2| 53(domain), 80(http), 443(https), 3000(ppp), 5001(complex-link), 7001(afs3-callback), 10000(snet-sensor-mgmt) |[Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L570)	| 54.880 days (since Wed Dec 13 19:12:07 2017) ||
+	|	   2	|	14.139.34.3| 22(ssh), 80(http), 6001(X11:1), 8080(http-proxy)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L594)	| 55.101 days (since Wed Dec 13 13:54:01 2017) 	||
+	|		3	|	14.139.34.4	| 22(ssh), 80(http), 6001(X11:1), 8080(http-proxy)	|	[Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L618)	|	55.547 days (since Wed Dec 13 03:12:04 2017)	||
+	|		4	| 	14.139.34.7| 22(ssh), 53(domain), 80(http), 110(pop3), 143(imap), 587(submission), 993(imaps), 995(pop3s), 10000(snet-sensor-mgmt), 20000(dnp)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L647)	| 54.728 days (since Wed Dec 13 22:50:42 2017) ||
+	|		5	| 	14.139.34.8| 80(http), 389(ldap), 443(https)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L664)	| 55.260 days (since Wed Dec 13 10:04:38 2017) ||
+	|		6	|	14.139.34.9| 80(http), 110(pop3), 443(https), 465(smtps), 993(imaps), 10000(snet-sensor-mgmt) | [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L681) 	| 56.233 days (since Tue Dec 12 10:44:38 2017) ||
+	|		7	|	14.139.34.10| 21(ftp), 22(ssh), 80(http), 443(https), 8000(http-alt), 8082(blackice-alerts)	| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L699) 	| 55.080 days (since Wed Dec 13 14:24:20 2017) ||
+	|		8	|	14.139.34.11| 22(tcp), 53(domain), 80(tcp), 8080(http-proxy)| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L721)	| 55.855 days (since Tue Dec 12 19:48:52 2017)	||
+	|		9	|	14.139.34.17| 22(ssh), 80(http), 5800(vnc-http), 5900(vnc) | [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L744)	| 56.227 days (since Tue Dec 12 10:52:28 2017) 	||
+	|		10	|	14.139.34.24| 80(http), 135(msrpc), 139(netbios-ssn), 1023(netvenuechat), 1433(ms-sql-s), 1801(msmq), 2103(zephyr-clt), 2105(eklogin), 2107(msmq-mgmt),etc ...	| [Windows](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L788) 	| 7.331 days (since Tue Jan 30 08:23:28 2018)	||
+	|		11	|	14.139.34.26| 80(http), 135(msrpc), 139(netbios-ssn),1023(netvenuechat), 1433(ms-sql-s), 1801(msmq), 2103(zephyr-clt), 2105(eklogin), 2107(msmq-mgmt),etc... | [Windows](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L828)	| 54.884 days (since Wed Dec 13 19:06:55 2017)	||
+	|		12	|	14.139.34.43| 22(ssh), 80(http), 139(netbios-ssn), 3306(mysql), 8080(http-proxy), 8081(blackice-icecap), 8082(blackice-alerts)	| [Linux](https://github.com/me-ydv-5/sys-admin/blob/master/nmap2.txt#L867)	| 5.293 days (since Thu Feb  1 09:17:34 2018)	||
 
 
 	Note that the **Suggested OS** column states the _most probable_ guess of the OS and **NOT** the _exact_ one.
@@ -87,4 +87,5 @@ I also confirmed my claim using [this link](http://www.viewdns.info/iphistory/?d
 
 [End of Report]
 
-All copyrights reserved.
+&copy; Sahil Yadav.
+All Rights Reserved.
