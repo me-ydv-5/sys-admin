@@ -5,7 +5,7 @@ This task was pretty time consuming, which at first seemed to be a cake walk. I 
 
 Rest is the assessment left with the moderators.
 
-This is the [link](https://cloud.docker.com/app/meydv5/repository/docker/meydv5/ubuntu/general) to the repository.
+This is the [link](https://cloud.docker.com/app/meydv5/repository/docker/meydv5/ubuntu/general) to the image.
 
 [End of Report]
 
