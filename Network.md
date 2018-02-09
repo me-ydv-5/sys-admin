@@ -49,7 +49,7 @@
 2. 	students.iitmandi.ac.in works on the servers hosted by **National Knowledge Network, India**.
 To find this : I ran the command `dig students.iitmandi.ac.in` and noted down that the A records IP is *14.139.34.3*.
 After this, I ran `whois 14.139.34.3` to find about the associated organisation and other things, in which I observed NKN as
-the network administrator. Since generally the hosting organisation is called as a 'Registrar', I didn't see anything explicit as such.
+the network administrator. Generally the hosting organisation is called as a 'Registrar', I didn't see anything explicit as such. Moreover, since students.iitmandi.ac.in is a subdomain for iitmandi.ac.in, I did `whois iitmandi.ac.in` where I found `Sponsoring Registrar:ERNET India (R9-AFIN)`, which inturn looks after the NKN network.
 Therefore, to cross verify I went up on looking on internet where I came up to a [website](https://bgp.he.net/dns/students.iitmandi.ac.in) that shows DNS and IP info. Hence, I verified the same from the IP info on the given link.
 
 ****
